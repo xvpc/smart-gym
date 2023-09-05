@@ -1,0 +1,185 @@
+{
+    "ar": 
+        {
+            "description": "شسبيتخشلبخاض ضثبخها ضثب ضص بخضص ضبضبص ض بض.",
+            "showLocation": "موقعنا",
+            "location": "العاشر من رمضان, صدناوي مول أبو الوفا, الطابق الخامس.",
+            "opens": "مفتوح من :",
+            "galleryTitle": "معرض الصور",
+            "plansTitle": "خطط الأشتراك",
+            "coachesTitle": "المدربين",
+            "contact": "تواصل معنا",
+            "plans": [
+                {
+                    "period": "شهر",
+                    "price": 500.00,
+                    "plan": "عادي",
+                    "info": "شهر اشتراك + 1 دعوة"
+                },
+                {
+                    "period": "شهر",
+                    "price": 600.00,
+                    "plan": "ذهبي",
+                    "info": "شهر واحد + 1 دعوة +  (4 جاكوزي, 4 سونا)"
+                },
+                {
+                    "period": "3 أشهر",
+                    "price": 1200.00,
+                    "plan": "عادي",
+                    "info": "ثلاث أشهر أشتراك + 3 دعوات"
+                },
+                {
+                    "period": "3 أشهر",
+                    "price": 1600.00,
+                    "plan": "ذهبي",
+                    "info": "ثلاث أشهر أشتراك + 3 دعوات + (12 جاكوزي, 12 سونا)"
+                },
+                {
+                    "period": "6 أشهر",
+                    "price": 2200.00,
+                    "plan": "عادي",
+                    "info": "ستة أشهر أشتراك + 6 دعوات"
+                },
+                {
+                    "period": "6 أشهر",
+                    "price": 3000.00,
+                    "plan": "ذهبي",
+                    "info": "ستة أشهر أشتراك + 6 دعوات + (24 جاكوزي, 24 سونا)"
+                },
+                {
+                    "period": "1 سنة",
+                    "price": 5000.00,
+                    "plan": "عادي",
+                    "info": "سنه كاملة أشتراك + 12 دعوه"
+                },
+                {
+                    "period": "1 سنة",
+                    "price": 6000.00,
+                    "plan": "ذهبي",
+                    "info": "سنه كاملة أشتراك + 12 دعوه + (50 جاكوزي, 50 سونا)"
+                }
+            ],
+            "coaches": [
+                {
+                    "name": "الأسم",
+                    "image": "/images/placeholder2.png",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "الأسم",
+                    "image": "/images/placeholder2.png",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "الأسم",
+                    "image": "/images/placeholder2.png",
+                    "title": "كوتش جيم"
+                },
+                {
+                    "name": "الأسم",
+                    "image": "/images/placeholder2.png",
+                    "title": "كوتش جيم"
+                }
+            ]
+        }
+    ,
+    "en": 
+        {
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, doloremque autem. Corporis, ",
+            "showLocation": "Show location",
+            "location": "10th of Ramadan City 1, Cairo Governorate 7062536",
+            "opens": "Opens at:",
+            "galleryTitle": "Gallery",
+            "plansTitle": "Plans",
+            "coachesTitle": "Coaches",
+            "contact": "Contact us",
+            "plans": [
+                {
+                    "period": "1 Month",
+                    "price": 500.00,
+                    "plan": "Normal",
+                    "info": "One month subscription + 1 Invitation"
+                },
+                {
+                    "period": "1 Month",
+                    "price": 600.00,
+                    "plan": "Gold",
+                    "info": "One month subscription + 1 Invitation and (4 Jacuzzi, 4 Sauna)"
+                },
+                {
+                    "period": "3 Months",
+                    "price": 1200.00,
+                    "plan": "Normal",
+                    "info": "Three months subscription + 3 Invitation"
+                },
+                {
+                    "period": "3 Months",
+                    "price": 1600.00,
+                    "plan": "Gold",
+                    "info": "Three months subscription + 3 Invitation and (12 Jacuzzi, 12 Sauna)"
+                },
+                {
+                    "period": "6 Months",
+                    "price": 2200.00,
+                    "plan": "Normal",
+                    "info": "Six months subscription + 6 Invitation"
+                },
+                {
+                    "period": "6 Months",
+                    "price": 3000.00,
+                    "plan": "Gold",
+                    "info": "Six months subscription + 6 Invitation and (24 Jacuzzi, 24 Sauna)"
+                },
+                {
+                    "period": "1 Year",
+                    "price": 5000.00,
+                    "plan": "Normal",
+                    "info": "One month subscription + 12 Invitation and (24 Jacuzzi, 24 Sauna)"
+                },
+                {
+                    "period": "1 Year",
+                    "price": 6000.00,
+                    "plan": "Gold",
+                    "info": "One Year subscription + 12 Invitation and (50 Jacuzzi, 50 Sauna)"
+                }
+            ],
+            "coaches": [
+                {
+                    "name": "Name Placeholder 1",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 2",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 3",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 4",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 4",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 4",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                },
+                {
+                    "name": "Name Placeholder 4",
+                    "image": "/images/placeholder2.png",
+                    "title": "Gym Coache"
+                }
+            ]
+        }
+    
+}
