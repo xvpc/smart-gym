@@ -76,7 +76,7 @@ function Layout({ children, title, description, image }: LayoutProps) {
                     <nav className="container-fluid bg-black bg-opacity-25">
                         <div className="container py-2 d-flex flex-row flex-wrap justify-content-center justify-content-sm-between algin-items-center gap-4">
                             <div>
-                                <Link href="#">
+                                <Link href="/">
                                     <img className='img-fluid h-100 rounded overflow-hidden' src={assetsInfo.siteIcon} width={40} height={40} alt='Site Icon'/>
                                 </Link>
                                 {/* <h5 className="fw-bold text-nowrap p-1">
@@ -102,13 +102,34 @@ function Layout({ children, title, description, image }: LayoutProps) {
                 <main className={`container-fluid px-0 justify-content-start align-items-start overflow-hidden mb-auto`}>
                     {children}
                 </main>
-                <footer className="container-fluid bg-black">
-                    <div className="container text-center p-2 d-flex flex-row flex-wrap justify-content-between algin-items-center gap-3">
-                        <div className='d-flex flex-row flex-wrap justify-content-center align-items-center gap-2'>
-                                <p style={{fontFamily: 'Dancing Script, cursive, sans-serif, Arial'}} className='p-0 m-0'>Created By:<span style={{fontFamily: 'Dancing Script, cursive, sans-serif, Arial'}} className='ms-2 fw-bold p-0 m-0'>Viper</span></p> |
-                                <Link style={{width: '20px', height: '20px'}} className='bg-dark overflow-hidden rounded-1' title='https://xvpc.dev' href='https://xvpc.dev' target='_blank'><img className='img-fluid' src={'https://xvpc.dev/favicon/favicon-32x32.png'} width={512} height={512} alt='Portfolio Icon'/></Link>
+                <footer className="container-fluid bg-dark">
+                    <div className="d-flex flex-column justify-content-center algin-items-center gap-5 p-4">
+                        <div className="d-flex flex-row flex-wrap justify-content-around algin-items-center gap-3">
+                            <div className="justify-self-center align-self-center">
+                                <Link href="/">
+                                    <img className='img-fluid rounded overflow-hidden' src={assetsInfo.siteIcon} width={80} height={80} alt='Site Icon'/>
+                                </Link>
+                            </div>
+                            <div className="d-flex flex-row flex-wrap justify-content-center algin-items-center text-top gap-4 p-3">
+                                <div className="d-flex flex-column justify-content-top algin-items-center text-top gap-2">
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#location">{info[language].showLocation}</Link>
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#opens">{info[language].opens}</Link>
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#coaches">{info[language].coachesTitle}</Link>
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#gallery">{info[language].galleryTitle}</Link>
+                                </div>
+                                <div className="d-flex flex-column justify-content-top algin-items-center text-top gap-2">
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#plans">{info[language].plansTitle}</Link>
+                                        <Link className={`py-2 fw-bold ${styles.hoverLinks}`} href="#contact">{info[language].contact}</Link>
+                                </div>
+                            </div>
                         </div>
-                        <span style={{fontSize: '14px'}} className='text-white-50 text-center align-self-center'>{assetsInfo.site}&#169;{new Date().getFullYear()}</span>
+                        <div className="text-center p-2 d-flex flex-row flex-wrap justify-content-around algin-items-center text-center gap-3">
+                            <div className='d-flex flex-row flex-wrap justify-content-center align-items-center gap-2'>
+                                    <p style={{fontFamily: 'Dancing Script, cursive, sans-serif, Arial'}} className='p-0 m-0'>Created By:<span style={{fontFamily: 'Dancing Script, cursive, sans-serif, Arial'}} className='ms-2 fw-bold p-0 m-0'>Viper</span></p> |
+                                    <Link style={{width: '25px', height: '25px'}} className='bg-dark overflow-hidden rounded-1' title='https://xvpc.dev' href='https://xvpc.dev' target='_blank'><img className='img-fluid' src={'https://xvpc.dev/favicon/favicon-32x32.png'} width={512} height={512} alt='Portfolio Icon'/></Link>
+                            </div>
+                            <span style={{fontSize: '14px'}} className='text-white-50 text-center align-self-center'>{window?.location?.host || assetsInfo.site}&#169;{new Date().getFullYear()}</span>
+                        </div>
                     </div>
                 </footer>
             </div>

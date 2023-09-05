@@ -3,7 +3,7 @@ import React, { LegacyRef } from 'react'
 // Assets
 import { assetsInfo } from '@/utils/assets';
 
-// Mui : ok
+// Mui
 // import { useMediaQuery } from '@mui/material';
 
 // Parallax

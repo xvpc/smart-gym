@@ -4,7 +4,7 @@
             "description": "شسبيتخشلبخاض ضثبخها ضثب ضص بخضص ضبضبص ض بض.",
             "showLocation": "موقعنا",
             "location": "العاشر من رمضان, صدناوي مول أبو الوفا, الطابق الخامس.",
-            "opens": "مفتوح من :",
+            "opens": "مفتوح من",
             "galleryTitle": "معرض الصور",
             "plansTitle": "خطط الأشتراك",
             "coachesTitle": "المدربين",
@@ -86,9 +86,9 @@
     "en": 
         {
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, doloremque autem. Corporis, ",
-            "showLocation": "Show location",
+            "showLocation": "Location",
             "location": "10th of Ramadan City 1, Cairo Governorate 7062536",
-            "opens": "Opens at:",
+            "opens": "Opens at",
             "galleryTitle": "Gallery",
             "plansTitle": "Plans",
             "coachesTitle": "Coaches",
