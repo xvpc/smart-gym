@@ -32,7 +32,7 @@ export default function Location({location, showLocation}: {location: string, sh
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       initial={{ y: 0, x: 0, opacity: 0 }}
-      id="location" className="d-flex flex-row flex-wrap justify-content-center algin-items-center gap-5 py-3 px-1">
+      id="location" className="container d-flex flex-row flex-wrap justify-content-center algin-items-center gap-5 py-3">
       <div style={{height: "250px"}} className={matchSm ? "w-50 text-center" : "w-100"}>
         <MapContainer />
       </div>

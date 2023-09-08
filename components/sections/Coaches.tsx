@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Mui
-import { Tooltip } from '@mui/material'
+import { Tooltip, useMediaQuery } from '@mui/material'
 
 // Framer Motion
 import { motion } from 'framer-motion';
@@ -10,27 +10,28 @@ import { motion } from 'framer-motion';
 import styles from "@/styles/Home.module.css";
 
 export default function Coaches({coachesTitle, coaches}: {coachesTitle: string, coaches: any[any]}) {
-    
+    const matchSm: boolean = useMediaQuery('(min-width:576px)');
+
     return (
         <div id="coaches" className='container d-flex flex-column justify-content-center algin-items-center gap-4'>
             <h2 className='p-0 m-0 fw-bold text-center'>{coachesTitle}</h2>
-            <div className='container px-0 row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-3 justify-content-center align-self-center'>
+            <div className='container px-0 row row-cols-2 row-cols-sm-3 row-cols-md-4 g-2 py-3 justify-content-start align-self-center'>
                 {
                     coaches.map((item: any, index: number) => {
                         return(
                             <motion.div whileHover={{opacity: 0.8}} initial={{opacity: 1}}  key={index} style={{cursor: "pointer"}} className='overflow-hidden'>
-                                <div className={`overflow-hidden w-100 h-100 rounded ${styles.cardPattern} d-flex flex-row justify-content-start algin-items-center`}>
+                                <div className={`overflow-hidden w-100 h-100 rounded ${styles.cardPattern} d-flex flex-column flex-sm-row justify-content-start algin-items-center`}>
                                     <img
-                                        className='w-25 h-100'
+                                        className={`${matchSm ? "w-25" : "w-auto"} h-100`}
                                         src={item.image}
                                         alt={item.name}
                                         loading="lazy"
                                     />
-                                    <div className='p-2 d-flex flex-column justify-content-around algin-items-center gap-2'>
+                                    <div className='p-2 d-flex w-75 flex-column justify-content-around algin-items-center gap-2'>
                                         <Tooltip title={item.name || ""} arrow>
-                                            <h6 className='p-0 m-0 fw-bold text-truncate'>{item.name || ""}</h6>
+                                            <p className='p-0 m-0 fw-bold text-truncate'>{item.name || ""}</p>
                                         </Tooltip>
-                                        <p className='p-0 m-0 text-white-50 text-wrap ps-2' title={item.name || ""}>{item.title || ""}</p>
+                                        <span className='p-0 m-0 text-white-50 text-wrap' title={item.name || ""}>{item.title || ""}</span>
                                     </div>
                                 </div>
                             </motion.div>
